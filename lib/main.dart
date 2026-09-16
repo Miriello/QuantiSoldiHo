@@ -21,66 +21,8 @@ class QuantiSoldiHo extends StatelessWidget{
   }
 }
 
-class HomePage extends StatelessWidget{
-  const HomePage ({super.key});
 
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      backgroundColor: const Color(0xFFF4F6F2),
-      body: SafeArea(
-        child:Padding(padding: const EdgeInsets.all(20),
-        child:Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            const Text(
-              'Buongiorno, Francesco',
-              style: TextStyle(
-                color: Colors.grey,
-                fontSize: 14,
-              ),
-            ),
-            const SizedBox(height: 4),
-            const Text(
-              'Quanti soldi ho?',
-              style: TextStyle(
-                fontSize: 28,
-                fontWeight: FontWeight.bold,
-              ),
-            ),  
-            const SizedBox(height: 30),
-            PortaFoglio(),
-            const SizedBox(height: 30),
-            Row(
-              children: [
-                Expanded(
-                  child: ElevatedButton(
-                    onPressed: () {
-                      print('Aggiungi entrata');
-                    },
-                    child: const Text('+ Entrata'),
-                  ),
-                ),
-                const SizedBox(width: 12),
-                Expanded(
-                  child: ElevatedButton(
-                    onPressed: () {
-                      print('Aggiungi uscita');
-                    },
-                    child: const Text('- Uscita'),
-                  ),
-                ),
-              ],
-            ),
-          ],
-        ),
-        ),
-      ),
-    );
-  }
-}
-
-class PortaFoglio() extends StatelessWidget{
+class PortaFoglio extends StatelessWidget{
   const PortaFoglio ({super.key});
 
   @override
@@ -169,7 +111,7 @@ class PortafoglioChart extends StatelessWidget {
                 'Patrimonio totale',
                 style: TextStyle(
                   color: Colors.grey,
-                  fontSize: 13,
+                  fontSize: 12,
                 ),
               ),
               SizedBox(height: 4),
