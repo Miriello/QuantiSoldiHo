@@ -1,10 +1,10 @@
-
+import 'package:flutter/material.dart';
 
 class HomePage extends StatelessWidget{
   const HomePage ({super.key});
 
   @override
-  Widget build(BuildContext context) {
+  Widget Build(BuildContext context) {
     return Scaffold(
       backgroundColor: const Color(0xFFF4F6F2),
       body: SafeArea(

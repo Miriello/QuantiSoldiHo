@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:quanti_soldi_ho/Pagine/home_page.dart'
 
 void main(){
   runApp(const QuantiSoldiHo());
