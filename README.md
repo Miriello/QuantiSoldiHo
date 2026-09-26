@@ -1,17 +1,23 @@
-# quanti_soldi_ho
+# Quanti Soldi Ho
+Applicazione in Flutter per tracciare le proprie finanze
 
-A new Flutter project.
+## Obiettivi
 
-## Getting Started
+L’obiettivo è mostrare in un’unica schermata il patrimonio complessivo, la sua suddivisione tra conti e categorie e gli ultimi movimenti in entrata e in uscita.
+Il progetto è attualmente in fase di sviluppo e nasce anche come percorso pratico per imparare Dart e Flutter.
 
-This project is a starting point for a Flutter application.
+## La prima versione dell’app prevederà:
 
-A few resources to get you started if this is your first Flutter project:
+- visualizzazione del patrimonio totale
+- diagramma con la suddivisione del patrimonio
+- registrazione di entrate e uscite;
+- lista degli ultimi movimenti;
+- navigazione tra Home, Patrimonio e Movimenti;
+- salvataggio locale dei dati.
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## Tecnologie
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Flutter
+- Dart
+- Material Design 3
+-database locale da definire
